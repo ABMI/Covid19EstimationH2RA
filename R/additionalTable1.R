@@ -26,7 +26,7 @@ additionalTable1 <- function(connectionDetails = connectionDetails,
                              minCellCount = 10){
   start <- Sys.time()
   
-  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "Covid19EssentialHypertension")
+  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "PPIandH2RA")
   tcs <- read.csv(pathToCsv)
   
   exportFolder <- file.path(outputFolder, "export")

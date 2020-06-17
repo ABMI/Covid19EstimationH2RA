@@ -22,20 +22,18 @@ SELECT
 	s.cohort_start_date,
 	s.cohort_start_date cohort_end_date
 FROM (
-    SELECT
-            e.subject_id,
-            e.cohort_definition_id,
-            e.cohort_start_date,
-            ROW_NUMBER() OVER (PARTITION BY e.subject_id, e.cohort_definition_id ORDER BY e.COHORT_START_DATE ASC) ordinal
-    FROM (
-        SELECT d.person_id subject_id,
+    SELECT d.person_id subject_id,
         c.ancestor_concept_id cohort_definition_id,
         d.condition_start_date cohort_start_date
 FROM @cdm_database_schema.condition_occurrence d
 INNER JOIN #Codesets c ON c.concept_id = d.condition_concept_id
-    ) e
+UNION ALL
+SELECT d.person_id subject_id,
+        c.ancestor_concept_id cohort_definition_id,
+        d.procedure_date cohort_start_date
+FROM @cdm_database_schema.procedure_occurrence d
+INNER JOIN #Codesets c ON c.concept_id = d.procedure_concept_id
 ) s
-WHERE s.ordinal = 1
 ;
 
 TRUNCATE TABLE #Codesets;

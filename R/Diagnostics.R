@@ -331,3 +331,4 @@ debug_plotCovariateBalanceOfTopVariables <- function(balance,
     ggplot2::ggsave(fileName, plot, width = 10, height = max(2 + n * 0.2, 5), dpi = 400)
   return(plot)
 }
+
