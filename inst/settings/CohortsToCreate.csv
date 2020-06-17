@@ -1,10 +1,7 @@
 atlasId,atlasName,cohortId,name
-668,[JMPark] Famotidine drugs users with COVID-19 hospitalization (exposure),668,JMPark_Famotidine_drugs_users_with_COVID19_hospitalization_exposure
-669,[JMPark] H2RA drugs (except famotidine) users with COVID-19 hospitalization (exposure),669,JMPark_H2RA_drugs_except_famotidine_users_with_COVID19_hospitalization_exposure
-523,[HKJeon] Any death,523,HKJeon_Any_death
+668,[JMPark] Famotidine users with COVID-19 hospitalization (analysis 1),668,JMPark_Famotidine_users_with_COVID19_hospitalization_analysis_1
+623,"[JMPark] H2RAs users with COVID-19 hospitalization (exclude famotidine, analysis 1)",623,JMPark_H2RAs_users_with_COVID19_hospitalization_exclude_famotidine_analysis_1
 621,[JMPark] Occurrence of a composite intensive respiratory intervention during hospitalization,621,JMPark_Occurrence_of_a_composite_intensive_respiratory_intervention_during_hospitalization
-670,[JMPark] Hospitalization more than 30 days,670,JMPark_Hospitalization_more_than_30_days
-595,[JMPark] PPI drugs users with COVID-19 hospitalization (>=7d),595,JMPark_PPI_drugs_users_with_COVID19_hospitalization_7d
-665,[JMPark] non-PPI drugs users with COVID-19 hospitalization (>=7d),665,JMPark_nonPPI_drugs_users_with_COVID19_hospitalization_7d
-671,[SISeo-Target] PPI and non-H2RA,671,SISeoTarget_PPI_and_nonH2RA
-672,[SISeo-Comparator] non-PPI and non-H2RA,672,SISeoComparator_nonPPI_and_nonH2RA
+595,"[JMPark] PPI drugs users with COVID-19 hospitalization (analysis 2, 3)",595,JMPark_PPI_drugs_users_with_COVID19_hospitalization_analysis_2_3
+665,"[JMPark] H2 blocker users with COVID-19 hospitalization (analysis 2, 4)",665,JMPark_H2_blocker_users_with_COVID19_hospitalization_analysis_2_4
+672,"[JMPark] non-PPI and non-H2RA users with COVID-19 hospitalization (analysis 3, 4)",672,JMPark_nonPPI_and_nonH2RA_users_with_COVID19_hospitalization_analysis_3_4
