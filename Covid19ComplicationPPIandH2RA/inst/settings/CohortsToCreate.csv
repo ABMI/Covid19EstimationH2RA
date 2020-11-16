@@ -1,0 +1,10 @@
+atlasId,atlasName,cohortId,name
+968,"[JMPark] PPI users, with COVID-19",968,JMPark_PPI_users_with_COVID19
+969,"[JMPark] H2RA users, with COVID-19",969,JMPark_H2RA_users_with_COVID19
+1160,All-cause Death of Covid19 Pts.,1160,Allcause_Death_of_Covid19_Pts
+975,[JMPark] Hospitalizations with pneumonia or ARDS or sepsis or AKI,975,JMPark_Hospitalizations_with_pneumonia_or_ARDS_or_sepsis_or_AKI
+621,[JMPark] Occurrence of a composite intensive respiratory intervention during hospitalization,621,JMPark_Occurrence_of_a_composite_intensive_respiratory_intervention_during_hospitalization
+978,"[JMPark] non-PPI/non-H2RA users, with COVID-19",978,JMPark_nonPPInonH2RA_users_with_COVID19
+929,"[JMPark] PPI users, hospitalized with COVID-19",929,JMPark_PPI_users_hospitalized_with_COVID19
+970,"[JMPark] H2RA users, hospitalized with COVID-19",970,JMPark_H2RA_users_hospitalized_with_COVID19
+979,"[JMPark] non-PPI/non-H2RA users, hospitalized with COVID-19",979,JMPark_nonPPInonH2RA_users_hospitalized_with_COVID19

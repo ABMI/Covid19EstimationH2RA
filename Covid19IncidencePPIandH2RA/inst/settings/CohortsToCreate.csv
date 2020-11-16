@@ -1,0 +1,6 @@
+atlasId,atlasName,cohortId,name,shinyName,shinyOrder
+972,[JMPark] PPI long-term users (>=7d.),972,JMPark_PPI_longterm_users_7d,PPI,5
+981,[JMPark] non-PPI/non-H2RA users,981,JMPark_nonPPInonH2RA_users,non-PPI/H2RA users,4
+1260,[JMPark] COVID-19 diagnosis,1260,JMPark_COVID19_diagnosis,COVID-19 diagnosis,3
+621,[JMPark] Occurrence of a composite intensive respiratory intervention during hospitalization,621,JMPark_Occurrence_of_a_composite_intensive_respiratory_intervention_during_hospitalization,intensive respiratory intervention,2
+983,[JMPark] H2 blocker long-term users (>=7d.),983,JMPark_H2_blocker_longterm_users_7d,H2 blocker,1

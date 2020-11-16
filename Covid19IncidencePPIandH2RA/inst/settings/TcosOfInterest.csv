@@ -1,0 +1,4 @@
+targetId,comparatorId,outcomeIds,excludedCovariateConceptIds,includedCovariateConceptIds
+972,981,1260;621,,
+983,981,1260;621,,
+972,983,1260;621,,
