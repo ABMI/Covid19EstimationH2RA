@@ -1,5 +1,20 @@
-PPIandH2RA
+Incidence of COVID-19 and complication of COVID-19 between PPI users and H2RA users
 ==============================
+
+<img src="https://img.shields.io/badge/Study%20Status-Design%20Finalized-brightgreen.svg" alt="Study Status: Design Finalized">
+
+- Analytics use case(s): **Population-Level Estimation**
+- Study type: **Clinical Application**
+- Tags: **OHDSI-Korea, COVID-19**
+- Study lead: **Jimyung Park, Seung In Seo**
+- Study lead forums tag: **[JMPark](https://forums.ohdsi.org/u/jmpark)**
+- Study start date: 
+- Study end date: 
+- Protocol: [Protocol](https://github.com/ohdsi-studies/Covid19PPIandH2RA/blob/master/documents/Covid19PPIandH2RA_Protocol.docx)
+- Publications: 
+- Results explorer: 
+
+This study aims to compare the incidence of COVID-19 and complication of COVID-19 between PPI users and H2RA users
 
 
 Requirements
