@@ -82,7 +82,7 @@ execute <- function(connectionDetails,
                     databaseName = "Unknown",
                     databaseDescription = "Unknown",
                     createCohorts = TRUE,
-                    synthesizePositiveControls = TRUE,
+                    # synthesizePositiveControls = TRUE,
                     runAnalyses = TRUE,
                     runDiagnostics = TRUE,
                     packageResults = TRUE,
@@ -107,30 +107,16 @@ execute <- function(connectionDetails,
                   outputFolder = outputFolder)
   }
 
-  # Set doPositiveControlSynthesis to FALSE if you don't want to use synthetic positive controls:
-  doPositiveControlSynthesis = FALSE
-  if (doPositiveControlSynthesis) {
-    if (synthesizePositiveControls) {
-      ParallelLogger::logInfo("Synthesizing positive controls")
-      synthesizePositiveControls(connectionDetails = connectionDetails,
-                                 cdmDatabaseSchema = cdmDatabaseSchema,
-                                 cohortDatabaseSchema = cohortDatabaseSchema,
-                                 cohortTable = cohortTable,
-                                 oracleTempSchema = oracleTempSchema,
-                                 outputFolder = outputFolder,
-                                 maxCores = maxCores)
-    }
-  }
-
   if (runAnalyses) {
     ParallelLogger::logInfo("Running CohortMethod analyses")
-    runCohortMethod(connectionDetails = connectionDetails,
-                    cdmDatabaseSchema = cdmDatabaseSchema,
-                    cohortDatabaseSchema = cohortDatabaseSchema,
-                    cohortTable = cohortTable,
-                    oracleTempSchema = oracleTempSchema,
-                    outputFolder = outputFolder,
-                    maxCores = maxCores)
+    # runCohortMethod(connectionDetails = connectionDetails,
+    #                 cdmDatabaseSchema = cdmDatabaseSchema,
+    #                 cohortDatabaseSchema = cohortDatabaseSchema,
+    #                 cohortTable = cohortTable,
+    #                 oracleTempSchema = oracleTempSchema,
+    #                 outputFolder = outputFolder,
+    #                 maxCores = maxCores)
+    
   }
 
   if (runDiagnostics) {
