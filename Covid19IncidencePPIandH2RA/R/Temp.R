@@ -110,10 +110,21 @@ connection <- DatabaseConnector::connect(connectionDetails)
 # sql <- SqlRender::renderSql(sql=sql, cdmDatabaseSchema=cdmDatabaseSchema, cohortDatabaseSchema=cohortDatabaseSchema, cohortTable=cohortTable, covariates=covariates)$sql
 # external_df <- DatabaseConnector::querySql(connection = connection, sql = sql)
 
-View(as.data.frame(cohortMethodData$covariates))
-View(as.data.frame(cohortMethodData$covariateRef))
+covariateIds <- as.data.frame(cohortMethodData$covariates)
+covariateNames <- as.data.frame(cohortMethodData$covariateRef)
+
+View(covariateNames)
+
+# library(dplyr)
+# sql <- "select " # => extract descendant concepts
+# sql
+# includeIngredientConceptIds <- DatabaseConnector::querySql()
+# covariateNames <-  covariateNames %>% filter(conceptId==includeIngredientConceptIds)
+
+test <- left_join(covariateIds, covariateNames, by=c("covariateId"="covariateId"))
 
 
+left_join(population, covariateIds, by=c("rowId"="rowId"))
 
 
 
